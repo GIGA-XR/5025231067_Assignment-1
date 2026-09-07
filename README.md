@@ -1,6 +1,6 @@
-# XR Teardown — [Name of the application or device]
+# XR Teardown — What if….? - An immersive Story
 
-**[Your NRP] — [Your full name]** · [S1 Informatics / S1 AI Engineering] · Individual Assignment 1
+**5025231067 — Sinta Probondari Wardani** · S1 Informatics · Individual Assignment 1
 
 |                          |                                                                    |
 | ------------------------ | ------------------------------------------------------------------ |
