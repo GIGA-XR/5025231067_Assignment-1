@@ -18,11 +18,16 @@
 
 ## 1. Device class
 
-[Which hardware class does it target? Name it precisely — degrees of freedom, standalone or tethered, opaque or passthrough, colour or monochrome, controllers shipped or not.]
+What if....? - An Immersive Story targets an optical-passthrough standalone spatial computer, specifically the Apple Vision Pro (visionOS). The physical device features twin micro-OLED panels delivering 23 million pixels across both eyes, powered by a dual-chip architecture (M2 for system compute and R1 for low-latency sensor processing).
 
-[Where does it sit on the reality–virtuality continuum, and why there rather than one step either side?]
+The application spans a dynamic segment of Milgram's Reality-Virtuality Continuum. It begins in Mixed Reality (MR) via video passthrough, where the local physical room geometry is scanned and integrated into the scene. Mystic portals and narrative characters anchor relative to real-world surface planes (tables, floors, and walls). During interactive combat sequences, the experience smoothly scaled transparency toward Virtual Reality (VR), fully occluding the pass-through feed with rendered 3D environments like the Astra plane or the cosmic Multiverse realms.
 
-[What does that class make possible, and what does it rule out? If it depends on a capability our lab hardware lacks — eye tracking, depth-aware colour passthrough below Quest 3 / Pico 4 Ultra — say so and say what breaks without it.]
+What this class forces on the design:
+**1. Vergence-Accommodation Conflict (VAC) Constraints:** Because the display focal distance is fixed (around 1/3 meters), interactive UI and magical spell runes cannot be placed too close to the user's face without causing severe eye strain. Spells must be projected outward into the room space.
+
+**2. Thermal & Power Budgets**: Running real-time stereoscopic rendering alongside 12-camera optical sensor fusion limits sustained high-polygon mesh rendering. To compensate, the developers rely on stylized cel-shaded shaders mirroring the animated Disney+ series rather than photorealistic ray tracing.
+
+**3. Sensor Field-of-View (FoV) Bounds**: Interaction mechanics depend on the lower-facing cameras detecting the user's hands. Dropping hands below the lap causes tracking loss, requiring explicit user prompt feedback.
 
 ![Caption that makes a point, not "screenshot of the app"](assets/fig1.png)
 
