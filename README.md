@@ -4,10 +4,11 @@
 
 |                          |                                                                    |
 | ------------------------ | ------------------------------------------------------------------ |
-| Subject                  | [Application or device name]                                       |
-| Publisher / manufacturer | [Who ships it]                                                     |
-| Release or major update  | [Month Year — must be 2023 or later]                               |
-| Platform(s)              | [e.g. Meta Quest 3, Pico 4 Ultra, visionOS, WebXR, Android XR]     |
+| Subject                  | What if....? - An Immersive Story                                  |
+| Publisher / manufacturer | Developed by ILM Immersive (LucasFilm) in collaboration with Marvel
+                             Studios, published via Disney+ as an interactive app.              |
+| Release or major update  | May 30, 2024                                                       |
+| Platform(s)              | visionOS                                                           |
 | How I examined it        | [Hands-on on a lab Quest 3 / documentation and spec sheets / both] |
 | Hands-on date(s)         | [when you actually put the headset on, or "documentation only"]    |
 
