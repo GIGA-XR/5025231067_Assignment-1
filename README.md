@@ -5,8 +5,8 @@
 |                          |                                                                    |
 | ------------------------ | ------------------------------------------------------------------ |
 | Subject                  | What if....? - An Immersive Story                                  |
-| Publisher / manufacturer | Developed by ILM Immersive (LucasFilm) in collaboration with Marvel
-                             Studios, published via Disney+ as an interactive app.              |
+| Publisher / manufacturer | Developed by ILM Immersive (LucasFilm) in collaboration with Marvel|
+|                          |   Studios, published via Disney+ as an interactive app.            |
 | Release or major update  | May 30, 2024                                                       |
 | Platform(s)              | visionOS                                                           |
 | How I examined it        | [Hands-on on a lab Quest 3 / documentation and spec sheets / both] |
