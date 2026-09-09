@@ -24,7 +24,7 @@ The application spans a dynamic segment of Milgram's Reality-Virtuality Continuu
 
 What this class forces on the design:
 
-**1. Vergence-Accommodation Conflict (VAC) Constraints:** Because the display focal distance is fixed (around 1/3 meters), interactive UI and magical spell runes cannot be placed too close to the user's face without causing severe eye strain. Spells must be projected outward into the room space.
+**1. Vergence-Accommodation Conflict (VAC) Constraints:** Because the display focal distance is fixed (around 1.3 meters), interactive UI and magical spell runes cannot be placed too close to the user's face without causing severe eye strain. Spells must be projected outward into the room space.
 
 **2. Thermal & Power Budgets**: Running real-time stereoscopic rendering alongside 12-camera optical sensor fusion limits sustained high-polygon mesh rendering. To compensate, the developers rely on stylized cel-shaded shaders mirroring the animated Disney+ series rather than photorealistic ray tracing.
 
@@ -36,11 +36,20 @@ What this class forces on the design:
 
 ## 2. Input modality
 
-**What the user does:** [The modalities actually used — controllers, hand tracking, gaze-and-pinch, voice, gesture, dwell, physical props, room-scale locomotion.]
+**What the user does:** The application relies on a controller-free spatial input schema: a combination of foveated eye-gaze selection and skeletal hand-tracking micro/macro gestures.
 
-**Why this and not that:** [Argue the choice against a named alternative the product did not take. What did it buy, and what did it give up?]
+- Primary Targeting: The user's eye-gaze position acts as the primary cursor ray. Looking directly at an enemy, a narrative choice, or an interactive spell target selects it.
 
-**Where it fails:** [At least one concrete failure mode — precision, arm fatigue, discoverability, occlusion, lighting, standing vs seated, small rooms, accessibility.]
+- Spell Activation & Kinematics: To cast mystic spells, the user performs macro hand gestures like crossing wrists, forming circular gestures, or thrusting open palms forward.
+
+**Why this and not that:** The developers chose a controller-free input system over standard 6DoF spatial motion controllers.
+
+- What it bought: Eliminating hardware controllers removes friction for non-gamer audiences, matches the media-first identity of the Apply Vision Pro platform, and allows organic physical pose transformations (like crossing wrists to cast a shiel or thrusting open palms forward) that mirror the superhero power fantasy from the What If...? series without holding plastic grips.
+- What it gave up: the design completely sacrifices physical haptic feedback, deterministic button clicks, and zero-latency tracking. In fast combat, players lose the tactile confirmation of blocking an attack or firing an energy beam, relying entirely on visual particle effects and spatial audio.
+
+**Where it fails:** This can be broken down across three distinct failure modes:
+- Self-Occlusion during Kinematics Gestures: Doctor Strange-style spell casting requires crossing wrists or holding hands in complex layered geometry. When one hand presses directly in front of another, the Vision Pro's downward-facing tracking cameras lose line-of-sight on the rear fingers, causing joint tracking to drop or freeze mid-cast.
+- "Midas Touch" & Saccadic Fatigue: Forcing-eye tacking to serve as a continuous spatial aiming reticle during combat created severe ocular fatigue. Because human eyes make involuntary jumpy movements, precision aiming at moving multiversal targets causes twitcy targeting and unintended activations.
 
 **What I would change:** [One substantiated remedy. Say why it would work, not just that it would be nicer.]
 
