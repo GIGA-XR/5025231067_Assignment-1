@@ -40,7 +40,7 @@ What this class forces on the design:
 - **Primary Targeting:** The user's eye-gaze position acts as the primary cursor ray. Looking directly at an enemy, a narrative choice, or an interactive spell target selects it.
 - **Spell Activation & Kinematics:** To cast mystic spells, the user performs macro hand gestures like crossing wrists, forming circular gestures, or thrusting open palms forward.
 
-<img width="768" alt="In-game spell casting gesture" src="assets/Fig3.png" />
+<img width="768" alt="In-game spell casting gesture" src="assets/Fig3.gif" />
 <img width="768" alt="Gestures and targeting in What If...? An Immersive Story" src="assets/Fig2.png" />
 
 **Why this and not that:** The developers chose a controller-free input system over standard 6DoF spatial motion controllers.
