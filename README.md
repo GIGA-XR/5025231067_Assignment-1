@@ -19,7 +19,7 @@
 
 What if....? - An Immersive Story targets an optical-passthrough standalone spatial computer, specifically the Apple Vision Pro (visionOS). The physical device features twin micro-OLED panels delivering 23 million pixels across both eyes, powered by a dual-chip architecture (M2 for system compute and R1 for low-latency sensor processing).
 
-<img width="640" alt="Apple Vision Pro passthrough spatial computing view" src="assets/fig1.png" />
+<img width="640" alt="Apple Vision Pro passthrough spatial computing view" src="assets/Fig1.jpg" />
 
 The application spans a dynamic segment of Milgram's Reality-Virtuality Continuum. It begins in Mixed Reality (MR) via video passthrough, where the local physical room geometry is scanned and integrated into the scene. Mystic portals and narrative characters anchor relative to real-world surface planes (tables, floors, and walls). During interactive combat sequences, the experience smoothly scales transparency toward Virtual Reality (VR), fully occluding the pass-through feed with rendered 3D environments like the Astra plane or cosmic Multiverse realms.
 
@@ -40,7 +40,8 @@ What this class forces on the design:
 - **Primary Targeting:** The user's eye-gaze position acts as the primary cursor ray. Looking directly at an enemy, a narrative choice, or an interactive spell target selects it.
 - **Spell Activation & Kinematics:** To cast mystic spells, the user performs macro hand gestures like crossing wrists, forming circular gestures, or thrusting open palms forward.
 
-<img width="768" alt="Gestures and targeting in What If...? An Immersive Story" src="assets/fig2.png" />
+<img width="768" alt="In-game spell casting gesture" src="assets/Fig3.png" />
+<img width="768" alt="Gestures and targeting in What If...? An Immersive Story" src="assets/Fig2.png" />
 
 **Why this and not that:** The developers chose a controller-free input system over standard 6DoF spatial motion controllers.
 
@@ -95,8 +96,8 @@ What If…? – An Immersive Story shows that while XR can now deliver movie-qua
 
 ## Figure credits
 
-- **Fig. 1** — Primary mixed reality passthrough portal anchor captured on Apple Vision Pro (Captured during hands-on evaluation, 9 Sep 2026).
-- **Fig. 2** — In-game spell casting gesture interface and target reticle (Source: Marvel Studios / ILM Immersive promotional capture).
+- **Fig. 1** — Trying out the Apple Vision Pro at Lab GIGA (Captured during hands-on evaluation, 9 Sep 2026).
+- **Fig. 2** — In-game spell casting gesture (Source: Youtube [https://www.youtube.com/watch?v=UTkmRwzuxHw]).
 - **Fig. 3** — Diagram of eye-gaze tracking vector and skeletal hand joint tracking bounds on visionOS (Original diagram created by author).
 
 ---
